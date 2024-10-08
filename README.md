@@ -1,6 +1,6 @@
 # PrometheusCollection
 
-<img src="imagem.png" alt="Prometheus">
+<img src="Imagem1.png" alt="Prometheus">
 
 > Para a construção dos reports, é importante que esta primeira parte do projeto seja concluída. Nesta fase, estaremos obtendo informações de jobs, instâncias e métricas atuamente monitoradas pelo Prometheus, utilizando apis que gerem instruções PromQL.
 
@@ -28,8 +28,10 @@ Trazendo a versão recém instalada, execute:
 
 ### Run
 
-$ getCollection.py <prometheus endpoint>
+$ cd <dir_instalacao>
+$ ./getCollection.py <prometheus endpoint>
 
 Exemplo: getCollection.py http://172.16.10.208:9091
 
 Após o término do comando, o log collection.log será gerado. Envie o resultado para análise e prosseguimento das Tarefas.
+
