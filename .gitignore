@@ -2,4 +2,6 @@ layer1.py
 layer2.py
 teste1.py
 __pycache__
-collection.log
+prometheus.log
+netbox.log
+project

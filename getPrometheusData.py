@@ -7,7 +7,7 @@ import getmetrics
 
 def main(prometheus_url):
     #prometheus_url = "http://172.16.10.208:9091"
-    f = open("collection.log", "w")
+    f = open("prometheus.log", "w")
     instances = getinstances.GetInstances(prometheus_url)
     for job, instance, scrapeInterval in instances.get_prometheus_instances():
         print(f"Job: {job}, Instance: {instance}, scrapeInterval: {scrapeInterval}", file = f)
