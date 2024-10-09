@@ -6,7 +6,7 @@ import pynetbox
 
 def getNetBox(netbox_url, netbox_token):
     try:
-        nb = pynetbox.api(url=netbox_url, token=netbox_token)
+        nb = pynetbox.api(netbox_url, token=netbox_token)
         f = open("netbox.log", "w")
 
         # Get all devices
